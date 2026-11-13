@@ -3,7 +3,7 @@ Title: Tennis Career Match Age Difference Analysis
 Version: 0.0.0.9000
 Authors@R: 
     person("Annie", "Devine", , "agdevine17@berkeley.edu", role = c("aut", "cre"))
-Description: Gets match data from Tennis Abstract, analyses player and opponents ages, creates scatterplot of career matches vs age difference between player and opponent, color coded by match outcome
+Description: Gets match data from Tennis Abstract. Analyses player and opponents ages. Creates scatterplot of career matches vs age difference between player and opponent, color coded by match outcome.
 License: MIT
 Config/roxygen2/version: 8.1.1
 Encoding: UTF-8
