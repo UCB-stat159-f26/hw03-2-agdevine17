@@ -4,7 +4,7 @@ Version: 0.0.0.9000
 Authors@R: 
     person("Annie", "Devine", , "agdevine17@berkeley.edu", role = c("aut", "cre"))
 Description: Gets match data from Tennis Abstract. Analyses player and opponents ages. Creates scatterplot of career matches vs age difference between player and opponent, color coded by match outcome.
-License: MIT
+License: MIT + file LICENSE
 Config/roxygen2/version: 8.1.1
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
