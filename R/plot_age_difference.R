@@ -3,9 +3,10 @@
 #' @param matches A data frame returned by get_player_matches().
 #' @return A ggplot object showing age differences by match.
 #' @export
+#' @importFrom rlang .data
 plot_age_difference <- function(matches) {
   matches$result <- factor(matches$result, levels = c("W", "L"))
-  ggplot2::ggplot(matches, ggplot2::aes(x = player_age, y = age_difference, color = result)) +
+  ggplot2::ggplot(matches, ggplot2::aes(x = .data$player_age, y = .data$age_difference, color = .data$result)) +
     ggplot2::geom_hline(yintercept = 0, color = "#999999", linewidth = 0.5) +
     ggplot2::geom_point(alpha = 0.6, size = 1.5) +
     ggplot2::scale_color_manual(values = c("W" = "#42C3E4", "L" = "#92368D"),
